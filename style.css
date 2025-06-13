@@ -1,0 +1,117 @@
+/* Overall Page */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: rgba(199, 100, 10, 80); /* light pink */
+  color: #E0ffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Top Section */
+.top-section {
+  background-image: url('https://media.istockphoto.com/id/1481647713/photo/outdoors-dinner-table-with-gorgeous-looking-barbecue-meat-fresh-vegetables-and-salads-happy.jpg?s=612x612&w=0&k=20&c=McIDlCYFCOA33TTMag2CmN1yAUlzL8FP5b6jmsMZrmY='); /* Replace with your own image if needed */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.top-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(1, 10, 20, 1.7);
+  font-family: 'Impact', 'Arial Black', cursive;
+  margin-top: 2px;
+}
+
+/* Middle Section */
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+/* Left Section */
+.left-section {
+  width: 45%;
+  background-color: rgba(255, 243, 248, 1); /* light cream pink */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(200, 0, 100, 0.1);
+}
+
+.left-section h2 {
+  color: rgba(255, 51, 102, 1);
+  margin-bottom: 10px;
+}
+
+.left-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-section li {
+  padding: 8px 0;
+  font-size: 1.1rem;
+  color: rgba(80, 20, 50, 1);
+  
+}
+
+/* Right Section */
+.right-section {
+  width: 45%;
+  background-color: rgba(255, 243, 248, 1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(200, 0, 100, 0.1);
+}
+
+.right-section h2 {
+  color: rgba(255, 51, 102, 1);
+  margin-bottom: 10px;
+}
+
+.right-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-section a {
+  text-decoration: none;
+  color: rgba(255, 0, 102, 1);
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  margin: 10px 0;
+}
+
+.right-section a:hover {
+  text-decoration: underline;
+  color: rgba(200, 0, 80, 1);
+}
+
+/* Footer */
+.bottom-section {
+  background-color: rgba(255, 214, 232, 1); /* footer pink */
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.bottom-section a {
+  color: rgba(214, 0, 93, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom-section a:hover {
+  text-decoration: underline;
+  color: rgba(160, 0, 70, 1);
+}
